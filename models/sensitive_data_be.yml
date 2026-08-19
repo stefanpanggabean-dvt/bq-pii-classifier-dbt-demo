@@ -7,3 +7,5 @@ models:
         description: "Unique user identifier"
       - name: user_email
         description: "User primary email address"
+        policy_tags:
+          - projects/sbx-devo-pj-gov/locations/europe-west1/taxonomies/281478308963231/policyTags/281480656280372
