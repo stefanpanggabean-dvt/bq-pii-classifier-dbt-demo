@@ -1,0 +1,16 @@
+name: 'dbt_demo'
+version: '1.0.0'
+config-version: 2
+profile: 'default'
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+macro-paths: ["macros"]
+seed-paths: ["seeds"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+
+models:
+  dbt_demo:
+    +persist_docs:
+      relation: true
+      columns: true

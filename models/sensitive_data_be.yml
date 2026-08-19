@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: sensitive_data_be
+    description: "Belgium sensitive customer dataset"
+    columns:
+      - name: user_id
+        description: "Unique user identifier"
+      - name: user_email
+        description: "User primary email address"
