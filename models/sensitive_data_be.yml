@@ -1,9 +1,13 @@
 version: 2
 models:
   - name: sensitive_data_be
-    description: "Belgium sensitive customer dataset"
+    description: "Belgium sensitive customer dataset (Post-dbt Transform)"
     columns:
       - name: user_id
         description: "Unique user identifier"
       - name: user_email
-        description: "User primary email address"
+        description: "User primary email address (Stable tagged column)"
+        policy_tags:
+          - "projects/sbx-devo-pj-gov/locations/europe-west1/taxonomies/281478308963231/policyTags/281480656280372"
+      - name: phone_no
+        description: "User phone number (Untreated PII column)"
