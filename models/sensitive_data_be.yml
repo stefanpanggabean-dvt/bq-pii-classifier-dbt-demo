@@ -11,3 +11,5 @@ models:
           - "projects/sbx-devo-pj-gov/locations/europe-west1/taxonomies/281478308963231/policyTags/281480656280372"
       - name: phone_no
         description: "User phone number (Untreated PII column)"
+        policy_tags:
+          - projects/sbx-devo-pj-gov/locations/europe-west1/taxonomies/281478308963231/policyTags/281480656280372
