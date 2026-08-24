@@ -1,0 +1,8 @@
+version: 2
+models:
+  - name: unconfigured_data_be
+    columns:
+      - name: payment_ref
+        description: Auto-generated column description for payment_ref
+        policy_tags:
+          - projects/sbx-devo-pj-gov/locations/europe-west1/taxonomies/8768721448001297570/policyTags/6898454678688873167
